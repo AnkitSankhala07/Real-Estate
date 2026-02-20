@@ -1,0 +1,17 @@
+{
+  "name": "akxton-real-estate",
+  "version": "1.0.0",
+  "description": "Akxton Real Estate Portal — MERN Stack",
+  "scripts": {
+    "dev": "npx concurrently \"npm run backend\" \"npm run frontend\"",
+    "backend": "npm run dev --prefix backend",
+    "frontend": "npm run dev --prefix frontend",
+    "install:all": "npm install --prefix backend && npm install --prefix frontend"
+  },
+  "keywords": [
+    "real-estate",
+    "mern"
+  ],
+  "author": "Akxton",
+  "license": "ISC"
+}
